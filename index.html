@@ -6,43 +6,67 @@
 <title>Classic Paramedical College</title>
 
 <style>
-body, html {
+body {
     margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-/* Default = Desktop */
-.bg {
-    background: url('coming-soon-desktop.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-
-/* Mobile View */
-@media (max-width: 768px) {
-    .bg {
-        background: url('coming-soon-mobile.jpg') no-repeat center center;
-        background-size: cover;
-    }
-}
-
-/* Optional overlay text (if needed later) */
-.content {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    color: white;
     font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00e6ff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00e6ff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
 }
 </style>
-</head>
 
+</head>
 <body>
 
-<div class="bg"></div>
+<div class="container">
+    <h1>Classic Paramedical College</h1>
+    <h2>Admissions Open 2026</h2>
+
+    <p>🚧 Website Coming Soon 🚧</p>
+
+    <p>📞 Contact: 95145 50520</p>
+    <p>🌐 Website: classicgroupedu.in</p>
+
+    <a href="tel:9514550520" class="btn">Call Now</a>
+</div>
 
 </body>
 </html>
