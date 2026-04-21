@@ -11,25 +11,24 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #0f2027, #2c5364);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-/* Main Card */
-.container {
-    background: white;
-    padding: 40px 20px;
-    border-radius: 15px;
+    color: white;
     text-align: center;
-    width: 90%;
-    max-width: 600px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-/* Logo */
+/* Center content */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* LOGO WHITE LABEL */
 .logo-box {
+    display: inline-block;
+    background: white;
+    padding: 8px 15px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -40,35 +39,35 @@ body {
 
 /* Text */
 h1 {
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
 .highlight {
-    color: #00bcd4;
+    color: #00e5ff;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 p {
-    margin: 8px 0;
+    margin: 6px 0;
     font-size: 16px;
 }
 
 /* Button */
 .btn {
     margin-top: 20px;
-    padding: 12px 25px;
-    background: #00bcd4;
-    color: white;
+    padding: 12px 30px;
+    background: #00c6d7;
+    color: black;
     text-decoration: none;
     border-radius: 8px;
-    display: inline-block;
     font-weight: bold;
 }
 
 .btn:hover {
-    background: #0097a7;
+    background: #00a5b5;
 }
 </style>
 
@@ -78,12 +77,11 @@ p {
 
 <div class="container">
 
-    <!-- Logo -->
+    <!-- Logo with white label -->
     <div class="logo-box">
         <img src="logo.png" class="logo">
     </div>
 
-    <!-- Content -->
     <h1>Classic Paramedical College</h1>
 
     <div class="highlight">Admissions Open 2026</div>
@@ -92,7 +90,6 @@ p {
     <p>📞 Contact: 95145 50520</p>
     <p>🌐 classicgroupedu.in</p>
 
-    <!-- Button -->
     <a href="tel:9514550520" class="btn">Call Now</a>
 
 </div>
