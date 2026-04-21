@@ -3,85 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Classic Paramedical College</title>
 
 <style>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: white;
-    text-align: center;
-}
-
-.container {
+    background: linear-gradient(135deg, #0f2027, #2c5364);
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100vh;
-    padding: 20px;
 }
 
-h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+/* Main Card */
+.container {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-h2 {
-    color: #00e6ff;
+/* Logo */
+.logo-box {
     margin-bottom: 20px;
 }
 
-p {
-    font-size: 18px;
-    margin: 5px 0;
-}
-    
-.logo-box {
-    background: white;
-    padding: 10px 20px;
-    display: inline-block;
-    border-radius: 10px;
-    margin: 20px;
-}
 .logo {
-    width: 200px;
+    width: 120px;
     height: auto;
-    display: block;  
 }
 
+/* Text */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #00bcd4;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* Button */
 .btn {
     margin-top: 20px;
-    display: inline-block;
     padding: 12px 25px;
-    background: #00e6ff;
-    color: black;
+    background: #00bcd4;
+    color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    display: inline-block;
     font-weight: bold;
 }
 
 .btn:hover {
-    background: white;
+    background: #0097a7;
 }
 </style>
 
 </head>
+
 <body>
 
 <div class="container">
-<div class="logo-box">
-    <img src="logo.png" class="logo"
-</div>
+
+    <!-- Logo -->
+    <div class="logo-box">
+        <img src="logo.png" class="logo">
+    </div>
+
+    <!-- Content -->
     <h1>Classic Paramedical College</h1>
-    <h2>Admissions Open 2026</h2>
+
+    <div class="highlight">Admissions Open 2026</div>
 
     <p>🚧 Website Coming Soon 🚧</p>
-
     <p>📞 Contact: 95145 50520</p>
-    <p>🌐 Website: classicgroupedu.in</p>
+    <p>🌐 classicgroupedu.in</p>
 
+    <!-- Button -->
     <a href="tel:9514550520" class="btn">Call Now</a>
+
 </div>
 
 </body>
